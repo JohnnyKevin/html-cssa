@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:dimgray;
+           
+        }
+        header {
+              background-color: rgb(255, 255, 255);
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(139, 196, 237);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px black;
+        
+
+           
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: rgb(243, 243, 243);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-align: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 2px 9px 2px rgb(0, 0, 0);
+            border-radius: 10px 30px;
+        }
+        article {
+               background-color: rgba(29, 29, 73, 0.913);
+               color: aliceblue;
+               
+         }
+         article> aside {
+            background-color: rgb(2, 2, 99);
+         }
+         
+         footer{
+            background-color: lightskyblue;
+            color: rgb(0, 0, 0);    
+            text-align: center;
+            padding: 4px;        
+         }
+         
+         footer > p {
+              margin: 0px;
+         }
+
+         div#bola {
+            height: 100px;
+            width: 100px;
+            background-color: white;
+           margin: 5px;
+           border-radius: 50%;
+
+         }
+         </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Futebol</a>
+            <a href="#">Natação</a>
+            <a href="#">Vôlei</a>
+            <a href="#">Basquete</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+         <p>Esporte Política Tecnologia</p>
+        </section>
+        <section id="noticias">      <article>
+            <h2>Notícia sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laudantium nobis blanditiis sequi excepturi, consequatur, dolorum recusandae corrupti quas dignissimos illo cumque quidem ipsam aspernatur adipisci? Modi est excepturi quam.</p>
+            <aside>
+                <p>Artigo escrito por josé da Silva</p>
+            </aside>
+
+         </article>
+         <article>
+
+         </article>
+         <article>
+
+         </article>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Cursoemvideo</p> 
+    </footer>
+        <div id="bola"></div>
+    
+</body>
+</html>
