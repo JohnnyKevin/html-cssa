@@ -13,15 +13,43 @@
             border-collapse: collapse;
         }
 
+        .Destaque {
+            background-color: 
+            blue;
+        }
+
         td,th{
             border: 1px solid black;
             padding: 8px;
+        }
+
+        caption{
+            font-size: 1.6em;
+            font-weight: bolder;
+            padding: 3px;
+        }
+
+        col.cnome{
+            background-color: azure;
+        }
+
+        col.csexo{
+            background-color: yellowgreen;
+        }
+
+        col.cgrupo {
+            background-color: blueviolet;
         }
     </style>
 </head>
 <body>
     <h1>Exercicios de tabelas</h1>
     <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cgrupo" span="2">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
@@ -34,6 +62,30 @@
             <td>F</td>
             <td>26</td>
             <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Cláudio</td>
+            <td>M</td>
+            <td>53</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Hélio</td>
+            <td>M</td>
+            <td>35</td>
+            <td>Vendedor</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>F</td>
+            <td>29</td>
+            <td>Médica</td>
+        </tr>
+        <tr>
+            <td>Otávio</td>
+            <td>M</td>
+            <td>22</td>
+            <td>Nutricionista</td>
         </tr>
        
 
