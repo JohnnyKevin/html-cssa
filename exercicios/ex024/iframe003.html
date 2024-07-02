@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo mas iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        li >a {
+            text-decoration: none;
+            font-weight: bolder;
+            transition-duration: 0.5s;
+            color: brown;
+        }
+
+        li > a:hover {
+            background-color: rgb(163, 163, 163);
+            color: black;
+        }
+
+        iframe {
+            border: 2px solid black;
+            height: 250px;
+            width: 95vw;
+
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça a sua escolha</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione quam voluptatum quaerat architecto, nihil eos at, cum repudiandae blanditiis voluptatem quis maiores laudantium aspernatur. Quo architecto illo explicabo ut quod?</p>
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira Página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda Página</a>
+        </li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira Página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam vel cum, necessitatibus excepturi laudantium repudiandae dignissimos iure dolores, consectetur recusandae perspiciatis rem fugit. Molestiae reiciendis beatae, inventore cumque impedit sequi?</p>
+    <iframe src="" name="frame" frameborder="0">
+        <p>infelizmente seu navegador não está Disponivel!</p>
+    </iframe>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet quo asperiores impedit commodi distinctio in odio. A dignissimos enim quas porro, veritatis vero nisi fugiat iure facere magnam sequi adipisci!</p>
+</body>
+</html>
