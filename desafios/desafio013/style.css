@@ -40,8 +40,7 @@ main {
         top: 81px;
         left:22px;
         width: 265px;
-        height: 467px;
-        
+        height: 467px;   
 
     }
 
@@ -59,4 +58,13 @@ main {
         margin: 10px;
         border-radius: 50%;
         box-shadow: 2px 2px 5px black;
+        box-sizing: border-box;
     }
+
+    section#Sociais img:hover {
+        border: 2px solid whitesmoke;
+        transform: translate(-5px, -5px);
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.66);
+        transition: transform 1s, border 1s
+    }
+
