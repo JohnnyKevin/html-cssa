@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas" value="M" checked><label for="isxmas">Masculino</label><br>
+           <input type="radio" name="sexo" id="isxfem" value="F"><label for="isxfem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>
+                Esportes Favoritos
+            </legend>
+            <input type="checkbox" name="esvol" id="iesvol"><label for="iesvol">Vôlei</label><br>
+            <input type="checkbox" name="esbas" id="iesbas"><label for="iesbas">Basquete</label><br>
+            <input type="checkbox" name="esfut" id="iesfut" checked><label for="iesfut">Futebol</label><br>
+            <input type="checkbox" name="esfa" id="iesfa"><label for="iesfa">Futebol americano</label><br>
+            <input type="checkbox" name="esten" id="iesten"><label for="iesten">Tênis</label><br>
+            <input type="checkbox" name="esbas" id="iesbas"><label for="iesbas">Baisebol</label><br>
+            <input type="checkbox" name="esbox" id="iesbox"><label for="iesbox">Boxe</label><br>
+            <input type="checkbox" name="estm" id="iestm"><label for="iestm">Tênis de mesa</label><br>
+            <input type="checkbox" name="escv" id="iescv"><label for="iescv">Corrida de Cavalo</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
